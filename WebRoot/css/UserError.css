@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	background-image: url(../image/bg1.jpg);
+}
+nav{
+	padding: 20px;
+	background: #a5cd89;
+}
+nav a{
+	font-size: 22px;
+	padding: 5px 15px 5px 15px;
+	width: 10%;
+	color: white;
+	text-decoration: none;
+	text-align: right;
+}
+nav a:hover{
+	color: green; 
+}
+footer{
+	text-align: center;
+	padding: 16px;
+	font-size: 18px;
+	color: #fff;
+	background: #a5cd89;
+}

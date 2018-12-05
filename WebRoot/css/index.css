@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	background-image: url(../image/bg1.jpg);
+}
+nav{
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	background: #a5cd89;
+	justify-content:flex-end;
+}
+nav a{
+	font-size: 22px;
+	padding: 5px 15px 5px 15px;
+	width: 10%;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+}
+nav a:hover{
+	color: green; 
+}
+.t{
+	padding: 20px;
+	font-size: 26px;
+	text-align: center;
+}
+.pic_list{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.pic_list img{
+	width: 70%;
+	padding: 3px;
+	border: 3px dotted #555;
+}
+footer{
+	text-align: center;
+	padding: 16px;
+	font-size: 18px;
+	color: #fff;
+	background: #a5cd89;
+}

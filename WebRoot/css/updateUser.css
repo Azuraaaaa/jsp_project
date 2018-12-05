@@ -1,0 +1,101 @@
+@CHARSET "UTF-8";
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.head{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.head div{
+	width: 100%;
+	height: 250px;
+	animation: img 20s linear 0s infinite;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+@keyframes img{
+	0%{
+		background-image: url(../image/gb1.jpg);
+	}
+	25%{
+		background-image: url(../image/gb1.jpg);
+	}
+	26%{
+		background-image: url(../image/gb2.jpg);
+	}
+	50%{
+		background-image: url(../image/gb2.jpg);
+	}
+	51%{
+		background-image: url(../image/gb3.jpg);
+	}
+	75%{
+		background-image: url(../image/gb3.jpg);
+	}
+	76%{
+		background-image: url(../image/gb4.jpg);
+	}
+	100%{
+		background-image: url(../image/gb4.jpg);
+	}
+}
+.tab{
+	padding: 20px 0px 10px 50px;
+	font-size:20px;
+}
+.tab input{
+	border: 1px #aaa solid;
+	border-radius: 4px;
+	text-align: left;
+	font-size: 20px;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 20px;
+	margin: 10px;
+}
+.tab button{
+	border: 1px #99cc66 solid;
+	border-radius: 4px;
+	background-color: #3487ff;
+	box-shadow: 0 5px 8px 0 rgba(24,95,255,.1);
+	color: #fff;
+	text-align: center;
+	font-weight: lighter;
+	background-image: linear-gradient(0deg,#a5cd89,#ccde68);
+	width: 400px;
+	height: 60px;
+	margin: 40px 0 8px;
+	font-size: 24px;
+}
+.tab select{
+	border: 1px #aaa solid;
+	border-radius: 4px;
+	background: 0 0;
+	text-align: left;
+	font-size: 20px;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 20px;
+	margin: 10px;
+}
+.tab input[name="phone"]{
+	width: 300px;
+}
+.tab input[type="radio"]{
+	width: 15px;
+	height: 15px;
+}
+.tab input[type="checkbox"]{
+	width: 15px;
+	height: 15px;
+}
+footer{
+	text-align: center;
+	padding: 16px;
+	font-size: 18px;
+	color: #fff;
+	background: #a5cd89;
+}

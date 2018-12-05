@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	background-image: url(../image/bg1.jpg);
+}
+nav{
+	padding: 20px;
+	background: #a5cd89;
+}
+nav a{
+	font-size: 22px;
+	padding: 5px 15px 5px 15px;
+	width: 10%;
+	color: white;
+	text-decoration: none;
+	text-align: right;
+}
+nav a:hover{
+	color: green; 
+}
+.t{
+	padding: 20px;
+	font-size: 26px;
+	text-align: center;
+}
+.search{
+	text-align: right;
+}
+.word_list_item{
+	padding: 20px;
+	display: flex;
+}
+.image img{
+	width: 95%;
+	padding: 5px;
+}
+.image{
+	flex:2;
+}
+.txt{
+	flex:3;
+}
+.txt a{
+	font-size: 14px;
+	color: #cc9966;
+	text-decoration: underline;
+	text-align: right;
+}
+footer{
+	text-align: center;
+	padding: 16px;
+	font-size: 18px;
+	color: #fff;
+	background: #a5cd89;
+}
